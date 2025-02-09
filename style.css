@@ -1,0 +1,15 @@
+/* display property is important and this is flex property. */
+body {
+    border: 8px solid black;  
+    display: flex; 
+    justify-content: center; 
+    min-height: 800px;
+    align-items: center ;
+    
+}
+.box {
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    font-size: 50pt;
+}
