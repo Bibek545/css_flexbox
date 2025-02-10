@@ -1,16 +1,25 @@
 /* display property is important and this is flex property. */
 body {
+    min-height: 800px; 
     border: 8px solid black;  
     display: flex; 
-    justify-content: flex-start; 
-    flex-direction: column;
-    min-height: 800px; 
-    align-items: center ;
+    gap: 20px;
+    /* flex-wrap: wrap; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* align-content: center; */
     
 }
+#box-1 {
+    flex-shrink: 0;
+}
 .box {
+    flex-shrink: 1;
     height: 200px;
     width: 200px;
     background-color: red;
     font-size: 50pt;
+    display: flex;
+    align-content: center;
+    justify-content: center;
 }
