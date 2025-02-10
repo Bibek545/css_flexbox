@@ -2,8 +2,9 @@
 body {
     border: 8px solid black;  
     display: flex; 
-    justify-content: center; 
-    min-height: 800px;
+    justify-content: flex-start; 
+    flex-direction: column;
+    min-height: 800px; 
     align-items: center ;
     
 }
